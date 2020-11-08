@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from math import sqrt
 
 # Preparaçao dos dados
-localData = 'C:/Users/henri/OneDrive/Documentos/Ufu2/ESP1_2020_2/AMAQ/Trabalhos/Trab 07/observacoes.txt'
+localData = './observacoes.txt'
 df = pd.read_csv(localData,sep = '  ',header=None) # Importando os dados
 inData = df.values # Passando os dados do data frame para array
 b = np.array([]) # Lista de grupos
